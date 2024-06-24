@@ -1,0 +1,50 @@
+.search_div {
+    height: 121px;
+    margin-bottom: 11px;
+}
+input[type="text"] {
+    margin: 36px 10px 11px 34%;
+    width: 31%;
+    height: 49px;
+    border-radius: 21px;
+    color: #c3c7c7;
+    font-size: 18px;
+    border-color: snow;
+    text-indent: 22px;
+    box-shadow: 19px 17px 23px 0px #bbe3e7;
+}
+i.bi.bi-search {
+    position: relative;
+    left: 33%;
+    top: 1%;
+    font-size: 24px;
+    color: #a0a2a5;
+}
+.table_div {
+    background-color: #f0f8ff69;
+    padding: 12px 0px 0px 0px;
+}
+table {
+    width: 77%;
+    margin: 38px 10px 10px 255px;
+}
+td.Product_td {
+    width: 30%;
+}
+img {
+    width: 35%;
+    margin: 22px 0px 10px -31px;
+    border-radius: 26px;
+}
+span {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #828b99;
+}
+h4 {
+    width: 31px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: #828b99;
+}

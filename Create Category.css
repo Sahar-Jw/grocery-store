@@ -1,0 +1,44 @@
+body {
+    background-color: #0dcaf038;
+}
+.all_page {
+    border-radius: 20px;
+    margin-top: 135px;
+    margin-left: 30%;
+    width: 40%;
+    height: 336px;
+    background: white;
+}
+.input_div {
+    margin-left: 88px;
+}
+.name_div {
+    padding: 95px 0px 60px 0px;
+}
+label {
+    font-size: 20px;
+    font-weight: 700;
+    color: darkgray;
+    margin-left: 21px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+input[type="text"] {
+    width: 44%;
+    margin-left: 32px;
+    text-indent: 7px;
+    border-radius: 20px;
+    height: 38px;
+}
+button {
+    margin-left: 23%;
+    margin-top: 10px;
+    font-size: revert;
+    border: none;
+    color: gray;
+    background: #6788a56e;
+    width: 33%;
+    height: 42px;
+    border-radius: 25px;
+}

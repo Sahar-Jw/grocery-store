@@ -1,0 +1,40 @@
+.all_div {
+    width: 99%;
+}
+.top_div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin: 42px 0px 20px 0px;
+}
+.top_div h3 {
+    color: #645c5c;
+    font-weight: 400;
+    font-size: 13px;
+}
+table {
+    background-color: #f0f8ff69;
+    border-radius: 69px 0px 69px 0px;
+    margin: 10px 0px 46px 22%;
+}
+th {
+    padding: 24px 90px 27px 90px;
+    font-size: larger;
+}
+td {
+    padding: 24px 90px 27px 90px;
+    font-size: revert;
+    color: #a1a7a7;
+}
+span {
+    margin-left: 14px;
+}
+.table_total {
+    font-size: inherit;
+    font-weight: 400;
+}
+.total_price h3 {
+    font-size: 20px;
+    margin-left: 198%;
+    font-weight: 400;
+}

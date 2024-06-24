@@ -1,0 +1,62 @@
+body {
+    background-color: #81888f30;
+}
+.all_page {
+    border-radius: 20px;
+    margin-top: 58px;
+    margin-left: 30%;
+    width: 40%;
+    height: 529px;
+    background: white;
+    padding: 58px 0px;
+}
+input.img_input {
+    margin-left: 16%;
+}
+.input_div {
+    margin-left: 88px;
+}
+label {
+    font-size: 20px;
+    font-weight: 700;
+    color: #191d1e91;
+    margin-left: 21px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+input[type="text"] {
+    margin-left: 54px;
+    text-indent: 7px;
+    border-radius: 20px;
+    height: 38px;
+}
+input[type="number"] {
+    margin-left: 29px;
+    text-indent: 7px;
+    border-radius: 20px;
+    height: 38px;
+}
+select {
+    margin-left: 29px;
+    width: 40%;
+    height: 36px;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #000000ad;
+}
+Select *{
+background-color: rgb(222, 228, 228);
+border: none;
+}
+button {
+    margin-left: 23%;
+    margin-top: 20%;
+    font-size: revert;
+    border: none;
+    color: gray;
+    background: #6788a56e;
+    width: 33%;
+    height: 33px;
+    border-radius: 25px;
+}

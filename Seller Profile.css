@@ -1,0 +1,61 @@
+body {
+    background-color: #db8200c9;
+}
+.all_page {
+    border-radius: 20px;
+    margin-top: 58px;
+    margin-left: 30%;
+    width: 40%;
+    height: 529px;
+    background: white;
+}
+img {
+    width: 23%;
+    margin: 39px 0px 10px 199px;
+}
+.input_div {
+    margin-left: 88px;
+}
+label {
+    font-size: 20px;
+    font-weight: 700;
+    color: darkgray;
+    margin-left: 21px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+input[type="text"] {
+    margin-left: 32px;
+    text-indent: 7px;
+    border-radius: 20px;
+    height: 38px;
+}
+input[type="number"] {
+    margin-left: 29px;
+    text-indent: 7px;
+    border-radius: 20px;
+    height: 38px;
+}
+input[type="email"] {
+    margin-left: 38px;
+    text-indent: 7px;
+    border-radius: 20px;
+    height: 38px;
+}
+input[type="password"] {
+    border-radius: 20px;
+    text-indent: 7px;
+    height: 38px;
+}
+button {
+    margin-left: 23%;
+    margin-top: 10px;
+    font-size: revert;
+    border: none;
+    color: gray;
+    background: #6788a56e;
+    width: 33%;
+    height: 33px;
+    border-radius: 25px;
+}

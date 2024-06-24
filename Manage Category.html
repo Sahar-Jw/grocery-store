@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="Manage Category.css">
+    <title>Manage Category</title>
+</head>
+<body>
+    <div class="all_div">
+        <div class="search_div">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search"/>
+            <a href=""><button class="create_btn">Create</button></a>
+           
+        </div>
+        <div class="table_div">
+        <table>
+            <tr><th>Category</th> <th>Quantity</th> <th>Action</th></tr>
+            <tr>
+                 <td> <span>Sweets</span></td> <td> <h4>5</h4></td> 
+                 <td> <i class="bi bi-pencil-square"></i>
+                     <i class="bi bi-trash-fill" data-toggle="modal" data-target="#exampleModal3"></i></td>
+            </tr>
+            <tr>
+                </td> <td> <span>vegetebles</span></td>
+                 <td><h4>10</h4></td><td> <i class="bi bi-pencil-square"></i> 
+                    <i class="bi bi-trash-fill" data-toggle="modal" data-target="#exampleModal3"></i></td>
+            </tr>
+            <tr>
+                <td><span>Snacks</span></td> 
+                <td> <h4>3</h4></td><td> <i class="bi bi-pencil-square"></i> 
+                    <i class="bi bi-trash-fill" data-toggle="modal" data-target="#exampleModal3">
+                    </i></td>
+            </tr>
+                     <!-- Delete Modal start-->
+    <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true" dir="ltr">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title modal-txt " id="exampleModalLabel3">Delete </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body Center ">
+                هل أنت متأكد
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary close_btn" data-dismiss="modal">إغلاق</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Delete Modal end-->
+        </table>
+ 
+    </div>
+  
+</div>
+       
+<script src="dashborde/vendor/jquery/jquery.min.js"></script>
+<script src="dashborde/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+    
+</body>
+</html>

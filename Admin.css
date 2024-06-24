@@ -1,0 +1,31 @@
+body {
+    background-color: #1d4e79ab;
+}
+.all_page {
+    border-radius: 20px;
+    margin-left: 111px;
+    width: 82%;
+    margin-top: 101px;
+    background-color: white;
+}
+img {
+    width: 122px;
+    margin: 31px 0px 43px 43%;
+    border-radius: 47%;
+    border: 2px solid #ced4da63;
+}
+button {
+    border: none;
+    border-radius: 11px;
+    width: 45%;
+    height: 44px;
+    margin: 0px 0px 31px 134px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 1s;
+    color: darkgray;
+}
+button:hover {
+    transform: scale(1.1);
+    color: #80acd3;
+}
